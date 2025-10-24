@@ -33,55 +33,34 @@
   </head>
   <body>
     <header class="header">
-      <a href="index.html" class="header__link"
+      <a href="index.html" class="header__logo-link"
         ><img
           src="logo/logo.svg"
-          alt="compass logo"
-          class="header__link__image"
-        /><span class="header__link__brand-name">CompassDiaries</span></a
+          alt="logo brand"
+          class="header__logo-image"
+        /><span class="header__logo-brand-name">CompassDiaries</span></a
       >
 
-      <nav class="header__nav">
-        <label for="line" class="header__nav__label">
-          <input type="checkbox" class="header__nav__label__input" id="line" />
+      <nav class="header__main-navigation">
+        <label for="bar" class="header__burger-icon">
+          <input type="checkbox" class="header__burger-bar" id="bar" />
         </label>
-        <ul class="header__nav__unorderd-list">
-          <li class="header__nav__unorderd-list__list-item">
-            <a
-              href="index.html"
-              class="header__nav__unorderd-list__list-item__link"
-              >Home</a
-            >
+
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="index.html" class="header__main-nav-links">Home</a>
           </li>
-          <li class="header__nav__unorderd-list__list-item">
-            <a
-              href="pages/about.html"
-              class="header__nav__unorderd-list__list-item__link"
-              >About</a
-            >
+          <li class="header__item">
+            <a href="pages/about.html" class="header__main-nav-links">About</a>
           </li>
-          <li class="header__nav__unorderd-list__list-item">
-            <a
-              href="pages/contact.html"
-              class="header__nav__unorderd-list__list-item__link"
+          <li class="header__item">
+            <a href="pages/contact.html" class="header__main-nav-links"
               >Contact</a
             >
           </li>
         </ul>
-        <a href="pages/sign-up.html" class="header__nav__link">Sign Up</a>
+        <a href="pages/sign-up.html" class="header__cta">Sign Up</a>
       </nav>
     </header>
-
-    <main>
-      <section class="home">
-        <div class="home__background-image"></div>
-        <header class="home__header">
-          <h1 class="home__header-title">Dive into a World of Exploration</h1>
-          <p class="home__header-description">
-            Make your next adventure memorable
-          </p>
-        </header>
-      </section>
-    </main>
   </body>
 </html>
